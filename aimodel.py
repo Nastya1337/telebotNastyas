@@ -27,24 +27,7 @@ def save_photo(message):
         with open(filename, 'wb') as new_file:
             new_file.write(downloaded_file)
 
-
-
-
-
-
-
-
-
         bot.send_message(message.chat.id, "Фото успешно сохранено!")
-
-
-
-
-
-
-
-
-
 
     except Exception as e:
         bot.send_message(message.chat.id, f"Произошла ошибка: {str(e)}")
