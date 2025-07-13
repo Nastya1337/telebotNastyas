@@ -18,7 +18,7 @@ def get_random_item(path, is_folder=True, image_extensions=('jpg', 'jpeg', 'png'
         return None
     return random.choice(items)
 
-def deep_random_path(start_path='./dataset/ChinaCar', depth=2):
+def deep_random_path(start_path='./ChinaCar', depth=2):
     """Рекурсивно выбираем случайные папки, затем случайное изображение"""
     current_path = start_path
 
