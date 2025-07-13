@@ -1,12 +1,12 @@
 import telebot
-
-# import car
+import getRandomModel
 import config
 import random
 from telebot import types
 
 bot = telebot.TeleBot(config.TOKEN)
 
+# Начало
 @bot.message_handler(commands=['start'])
 def welcome(message):
     sti = open('AnimatedSticker.tgs', 'rb')
@@ -22,6 +22,7 @@ def welcome(message):
                                       "и характеристики машины из Китая по фотографии!".format(message.from_user,
                                         bot.get_me()), parse_mode='html', reply_markup=markup)
 
+# Выбор действия
 @bot.message_handler(content_types=['text'])
 def body(message):
     if message.chat.type == 'private':
@@ -35,10 +36,21 @@ def body(message):
 
             bot.send_sticker(message.chat.id, sticker=open('AnimatedSticker.tgs', 'rb'), reply_markup=markup)
         elif message.text == "🎲 Получить случайную модель":
-            bot.send_message(message.chat.id, str(random.randint(1, 100)))
+
+            get_photo, get_character = aimodel.deep_random_path()
+
+            # Получение случайного изображения
+            filePhoto = open(get_photo, 'rb')
+            bot.send_photo(message.chat.id, filePhoto)
+
+            # Вывод характеристик:
+            with open(get_character, 'r', encoding='utf-8') as file:
+                text = file.read()
+            bot.send_message(message.chat.id, text)
         else:
             bot.send_message(message.chat.id, "Не удалось тебя понять, попробуй еще раз)")
 
+# Результат выбора
 @bot.callback_query_handler(func=lambda call: True)
 def callback_inline(call):
     try:
