@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3b1343-9d27-494b-a389-94a32a07b2e0" name="Changes" comment="init aimodel.py">
-      <change afterPath="$PROJECT_DIR$/dataset/ChinaCar/BYD/BYDDenzaZ9GT/character.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ChinaCar/BYD/BYDSeal05DM-i/character.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ChinaCar/BYD/BYDSeal07DM-i/character.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ChinaCar/Changan/ChanganShenlanL07/character.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ChinaCar/Chery/CheryTiggo7ProMax/character.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ChinaCar/Chery/CheryTiggo9C-DM/character.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/ChinaCar/Jetour/JetourShanhaiL7/character.txt" afterDir="false" />
+    <list default="true" id="7b3b1343-9d27-494b-a389-94a32a07b2e0" name="Changes" comment="update getRandomModel.py">
+      <change afterPath="$PROJECT_DIR$/aimodel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aimodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/aimodel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataset/ChinaCar/BYD/BYDDenzaZ9GT/harakter.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.py" beforeDir="false" afterPath="$PROJECT_DIR$/init.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +57,8 @@
       <recent name="C:\Users\korni\PycharmProjects\telebot\dataset\ChinaCar\Chery\CheryTiggo7ProMax" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.aimodel">
-    <configuration name="aimodel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.getRandomModel">
+    <configuration name="getRandomModel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="telebot" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,7 +72,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aimodel.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\korni\PycharmProjects\telebot\getRandomModel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,7 +107,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.init" />
-        <item itemvalue="Python.aimodel" />
+        <item itemvalue="Python.getRandomModel" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +130,7 @@
       <workItem from="1752231122208" duration="3459000" />
       <workItem from="1752235175614" duration="4381000" />
       <workItem from="1752316271904" duration="5671000" />
-      <workItem from="1752405711716" duration="7940000" />
+      <workItem from="1752405711716" duration="8266000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -157,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752405994141</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update getRandomModel.py">
+      <option name="closed" value="true" />
+      <created>1752414200439</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752414200439</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,11 +165,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="init aimodel.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="init aimodel.py" />
+    <MESSAGE value="update getRandomModel.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="update getRandomModel.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/telebot$aimodel.coverage" NAME="aimodel Coverage Results" MODIFIED="1752413641423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/telebot$init.coverage" NAME="init Coverage Results" MODIFIED="1752413966048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/telebot$init.coverage" NAME="init Coverage Results" MODIFIED="1752414004592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/telebot$data.coverage" NAME="data Coverage Results" MODIFIED="1752232779679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
